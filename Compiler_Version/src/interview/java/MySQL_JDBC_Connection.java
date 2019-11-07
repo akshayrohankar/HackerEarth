@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class StringManipulation {
+public class MySQL_JDBC_Connection {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 
