@@ -32,6 +32,8 @@ public class MissingDigit {
 		System.out.println(digitsCount);
 
 		resultFinal=doubleValueOperation(array,digitsCount);
+		
+		System.out.println("Result "+resultFinal);
 
 	}
 
@@ -75,3 +77,10 @@ public class MissingDigit {
 	}
 
 }
+
+
+
+//OUTPUT
+/*
+ * [9, 8, 7, 6, 5, 4, 3, 2, 1] 7 [0, 9, 8, 7, 6, 5, 4, 3, 2, 1] 10 Result 51
+ */
