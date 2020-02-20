@@ -12,7 +12,7 @@ public class MissingDigit {
 		int digitsCount = 0;
 	
 
-		int temp = 123456789;
+		int temp = 861;
 
 
 		// convert int to int array.
@@ -24,10 +24,10 @@ public class MissingDigit {
 		}
 
 		System.out.println(array);
-		System.out.println(array.get(2));
+		//System.out.println(array.get(2));
 		
-		array.add(0, 0);
-		System.out.println(array);
+		//array.add(0, 0);
+		//System.out.println(array);
 		digitsCount = array.size();
 		System.out.println(digitsCount);
 
@@ -46,7 +46,7 @@ public class MissingDigit {
 		// List<Integer> doubleIntValues = new ArrayList<Integer>();
 		int sumArray = 0;
 
-		for (int i = 1; i < digitsCount; i++) {
+		for (int i = 0; i < digitsCount; i++) {
 			if (i % 2 == 0) {
 				//array[i] *= 2;
 				
