@@ -8,7 +8,7 @@ public class PatternMatching {
 	public static void main(String[] args) {
 		
 		 // Create a pattern to be searched 
-        Pattern pattern = Pattern.compile("geeks"); 
+        Pattern pattern = Pattern.compile("g"); 
   
         // Search above pattern in "geeksforgeeks.org" 
         Matcher m = pattern.matcher("geeksforgeeks.org"); 
